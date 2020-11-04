@@ -58,5 +58,12 @@ while True:
             print("CARTÃO NÃO ENCONTRADO")
             time.sleep(0.5)
 
+    elif keyboard.is_pressed(TASK_CHOICES[REACTOR_NUMBERS]["KEY_PRESS"]):
+        size = TASK_CHOICES[REACTOR_NUMBERS]["SQUARE_SIZE"]
+        ind = 0
+        for square in TASK_CHOICES[REACTOR_NUMBERS]["SQUARES_MIN_POS"]:
+            #ImageGrab.grab(bbox=(square[0], square[1], square[0]+size, square[1]+size)).save("img"+str(ind)+".jpg", "JPEG")
+            ind += 1
+
 
 

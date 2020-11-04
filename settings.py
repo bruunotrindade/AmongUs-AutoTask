@@ -22,12 +22,13 @@ TASK_CHOICES = {
         "START_PIXEL_POS": (824, 810)
     },
     REACTOR_NUMBERS: {
+        "KEY_PRESS": "3",
         "FRAME_MIN_X": 578,
         "FRAME_MIN_Y": 388,
         "FRAME_MAX_X": 1338,
         "FRAME_MAX_Y": 688,
         "SQUARE_SIZE": 135,
-        "SQUARES_MAX_POS": [
+        "SQUARES_MIN_POS": [
             (585, 393), (738, 393), (892, 393),
             (1045, 393), (1198, 393),   
             (585, 550), (738, 550), (892, 550),
