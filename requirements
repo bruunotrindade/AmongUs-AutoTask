@@ -1,5 +1,5 @@
-keyboard==0.13.5
 Pillow==8.0.1
 PyAutoGui==0.9.52
 numpy==1.18.5
 tensorflow
+pynput==1.7.1

@@ -1,3 +1,4 @@
+CLOSE = '0'
 WIRE = 1
 CARD = 2
 REACTOR_NUMBERS = 3
